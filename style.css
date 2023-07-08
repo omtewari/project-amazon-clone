@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}  
+.navbar{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    color: white;
+    align-items: center;
+justify-content: space-evenly;}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+    
+/* box1 */
+.navlogo{
+    width: 100px;
+    height: 50px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+/* box3 */
+.navloc{
+    display: flex;
+}
+
+
+.addf{
+    margin-left: 12px;
+    color: #cccc;
+    font-size: 0.80rem;
+}
+.adds{
+    margin-right: 9px;
+    color: #ffff;
+    font-size: 1rem;
+}
+/* box4 */
+.navsearch{
+    display: flex;
+    height: 38px;
+    width: 630px;
+    background-color: palegreen;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    
+    /* margin-left: 2px; */
+   
+
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+.searchicon{
+   width: 45px;
+    background-color: rgb(196, 85, 11); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+.selectsearch{
+    width: 45px;
+    border-top-left-radius: 4px;
+    border: bottom left radius 4px; ;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+.searchinput{
+    width: 100%;
+    font-size: 1rem;
+}
+
+/* box4 */
+  
+  .hello{
+    font-size: 0.8rem;
+  }
+.acc{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.signin{
+    /* margin-left: 0.3rem; */
+}
+/* box6 cart */
+.cart{
+    display: flex;
+
+}
+.cart i{
+    font-size: 30px;
+}
+.txt{
+    margin-top: 15px;
+}
+/* second panel */
+ .panel{
+    display: flex;
+    height: 39px;
+    background-color: #2b3131;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .allpanel{
+    display: flex;
+ }
+ .panelops{
+    width: 65%;
+    font-size: 14px;
+    
+ }
+ a{
+    margin-left: 15px;
+ }
+ .shop{
+    font-size: 20px;
+    font-weight: 600;
+ }
+ /* hero section */
+ .hero{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+ }
+
+    .heromsg{
+        background-color: white;
+        height: 2.2rem;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        color: black;
+    }
+    
+ 
+    
+    .shopping{
+        display: flex;
+        flex-wrap: wrap;
+      justify-content: space-evenly;
+        background-color: rgb(245, 245, 184);
+        /* margin-top: 10px; */
+
+    }
+    .box{
+        width: 17rem;
+        height: 19rem;
+        /* border: 2px solid black; */
+        background-color: white;
+        margin-top: 10px;
+        
+    }
+    .boximg{
+        height: 230px;
+        background-size: cover;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+.boxcontent p{
+    color: #007185;
+}
+.footerpanel1{
+    height: 45px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+
+}
+.footerpanel2{
+    height: 25rem;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.footerpanel3{
+    height: 7rem;
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.footerpanel4{
+    height: 5rem;
+    background-color: #0c0e11;
+    color: white;
+    font-size: 0.85rem;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.pages{
+    padding-top: 1.5rem;
+}
+.copyright{
+    padding-top: 0.5rem;
+}
